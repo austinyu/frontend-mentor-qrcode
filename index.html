@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="./output.css" rel="stylesheet">
-  
-  <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  </div>
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | QR code component</title>
+  </head>
+  <body class="font-outfit">
+    <div class="bg-slate-300">
+      <div class="flex justify-center items-center h-screen">
+        <div
+          class="bg-white rounded-20 text-center flex flex-col items-center max-w-xs px-4 pt-4 pb-10 space-y-6"
+        >
+          <img
+            src="./images/image-qr-code.png"
+            alt="qr-code"
+            class="w-32 h-32 rounded-10"
+          />
+          <div>
+            <h1 class="f-paragraph font-bold text-slate-900">
+              Improve your front-end skills by building projects
+            </h1>
+            <p class="f-paragraph text-slate-500">
+              Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
